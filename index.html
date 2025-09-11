@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Portofolio</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, Saya Muhammad Raka Irhamna 👋</h2>
+        <p>Saya, seorang pelajar, kesibukan saya sekarang, sebagai Web Developer | Create Laravel Side Server Project | Web Designer yang memiliki passion tinggi dalam dunia teknologi, desain, atau developer. Saya percaya bahwa kreativitas dan logika bisa berjalan beriringan untuk menciptakan solusi yang berdampak.
+
+Saya mulai terjun ke dunia pengembangan web sejak tahun 2024, dan hingga kini terus mengembangkan diri melalui berbagai project tugas sekolah, persyaratan untuk PKL, maupun pengembangan pribadi.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-gear"></i>
+            <span>Project</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="foto portofolio.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+       <p>Frontend Development :
+          HTML, CSS, JavaScript, Laravel, Pyhton</p>
+        
+        <p>Backend Development :
+          PHP, MySQL</p>
+
+        <p>Tools & Workflow :
+          Git, GitHub, VS Code</p>
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="laravel.webp" alt= "laravel logo">
+          <span>Laravel</span>
+        </div>
+        
+        <div class="cell">
+          <img src="php.webp" alt="php logo">
+          <span>PHP</span>
+        </div>
+        
+        <div class="cell">
+          <img src="javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Project</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="toko kopi.jpg">
+          <p>Toko Kopi</p>
+          <p>Laravel side server</p>
+        </div>
+
+        <div class="text">
+         Aplikasi dashboard berbasis web yang saya kembangkan menggunakan Laravel untuk memudahkan pengelolaan operasional toko kopi. Fitur utama mencakup pemantauan pendapatan harian, transaksi, pelanggan baru, manajemen produk, dan notifikasi stok rendah. Dirancang dengan antarmuka yang responsif dan user-friendly untuk mendukung efisiensi bisnis harian.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+  <p>Ingin bekerja sama atau punya pertanyaan? Jangan ragu untuk menghubungi saya melalui informasi di bawah ini atau kirim pesan langsung lewat form.</p>
+
+  <ul class="contact-info">
+    <li><strong>Email:</strong> rakaaja422@gmail.com</li>
+    <li><strong>Phone:</strong> +62 858-9405-1164</li>
+    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/kepenggski?igsh=MWRubzBkNmEyYmhqYg==" target="_blank">https://www.instagram.com/kepenggski?igsh=MWRubzBkNmEyYmhqYg==</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/rakayriii" target="_blank">https://github.com/rakayriii</a></li>
+  </ul>
+
+  <form class="contact-form" action="#" method="POST">
+    <label for="name">Nama</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Pesan</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>     
+      </section>
+  </main>
+</body>
+</html>
